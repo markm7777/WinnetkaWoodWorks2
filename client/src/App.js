@@ -1040,9 +1040,9 @@ function Home(props) {
   return (
     <div id='homeDiv'>
       {props.videoEnded && <div id='imgDiv1'> <img src={process.env.PUBLIC_URL + '/images/chair.jpg'} alt="Pineapple" style={{width:'200px', height:'200px'}}></img> </div>}
-      {props.videoEnded && <div id='imgDiv2'> <img src={process.env.PUBLIC_URL + '/images/lamp.JPG'} alt="Pineapple" style={{width:'200px', height:'200px'}}></img> </div>}
-      {props.videoEnded && <div id='imgDiv3'> <img src={process.env.PUBLIC_URL + '/images/bench.JPG'} alt="Pineapple" style={{width:'200px', height:'200px'}}></img> </div>}
-      {props.videoEnded && <div id='imgDiv4'> <img src={process.env.PUBLIC_URL + '/images/headboard.JPG'} alt="Pineapple" style={{width:'300px', height:'300px'}}></img> </div>}
+      {props.videoEnded && <div id='imgDiv2'> <img src={process.env.PUBLIC_URL + '/images/lamp.jpg'} alt="Pineapple" style={{width:'200px', height:'200px'}}></img> </div>}
+      {props.videoEnded && <div id='imgDiv3'> <img src={process.env.PUBLIC_URL + '/images/bench.jpg'} alt="Pineapple" style={{width:'200px', height:'200px'}}></img> </div>}
+      {props.videoEnded && <div id='imgDiv4'> <img src={process.env.PUBLIC_URL + '/images/headboard.jpg'} alt="Pineapple" style={{width:'300px', height:'300px'}}></img> </div>}
     </div>
   )
 }
@@ -1059,7 +1059,7 @@ function About(props) {
         At Winnetka Woodworks we strive to produce quality furniture that will provide a lifetime of enjoyment.
         At Winnetka Woodworks we strive to produce quality furniture that will provide a lifetime of enjoyment.
         At Winnetka Woodworks we strive to produce quality furniture that will provide a lifetime of enjoyment.
-        <img src={process.env.PUBLIC_URL + '/images/shed1.JPG'} alt="shed" style={{width:'200px', height:'200px', marginLeft: '10px', marginRight: '20px', marginTop: '10px', marginBottom: '10px', float: 'right'}}></img>
+        <img src={process.env.PUBLIC_URL + '/images/shed1.jpg'} alt="shed" style={{width:'200px', height:'200px', marginLeft: '10px', marginRight: '20px', marginTop: '10px', marginBottom: '10px', float: 'right'}}></img>
         At Winnetka Woodworks we strive to produce quality furniture that will provide a lifetime of enjoyment.
         At Winnetka Woodworks we strive to produce quality furniture that will provide a lifetime of enjoyment.
         At Winnetka Woodworks we strive to produce quality furniture that will provide a lifetime of enjoyment.

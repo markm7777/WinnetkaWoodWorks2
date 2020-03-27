@@ -16,7 +16,7 @@ export default {
     {
       "name": "Cute Dog and Boy",
       "price": "99.99",
-      "image": "./images/IMG_0460.jpg", 
+      "image": "./images/img_0460.jpg", 
       "id": 101,
       "pounds": 13,
       "ounces": 0,
