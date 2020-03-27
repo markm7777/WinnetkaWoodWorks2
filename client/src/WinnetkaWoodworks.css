@@ -1,0 +1,741 @@
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  #root {
+    height: 100%;
+  }
+
+  html {
+    /* border-color: green;
+    border-width: 1px;
+    border-style: solid; */
+    margin: 0;
+    padding: 0;
+    font-family: "Arial";
+  }
+
+  .subhead::first-letter {
+    font-size: 20pt;
+    font-family: 'Trebuchet MS';
+  }
+
+  #headerLinks {
+    padding-top: 0px;
+    height: 45px;
+    color: white;
+    text-align: right;
+ /* text-shadow: 1px 1px rgb(0, 0, 0); */
+    background-color:rgb(10, 10, 10);
+    margin: 0px;
+    opacity: 1;
+    font-size: 16pt;
+  }
+
+  #user {
+    display: inline-block;
+    padding-right: 40px;
+    font-style: italic;
+    cursor: default;
+    color: rgb(13, 238, 114);
+    margin: 5px;
+  }
+
+  #login {
+    display: inline-block;
+    padding-right: 40px;
+    margin: 0px;
+  }
+
+  #login:hover {
+    color:rgb(92, 120, 247);
+    cursor: pointer;
+  }
+
+  #registerDiv {
+    text-align: right;
+    padding: 0;
+  }
+
+  #loginFailedDiv {
+    font-size: 10pt;
+    color: red;
+    height: 15px;
+    padding: 0; 
+    text-align: center;
+  }
+
+  #register {
+    color: blue;
+    width: 65px; 
+    display: inline-block;
+    padding: 0;
+    margin-right: 90px;
+  }
+
+  #register:hover {
+    color:rgb(92, 120, 247);
+    cursor: pointer;
+  }
+
+  #shoppingCart {
+    display: inline-block;
+    padding-right: 10px;
+    margin-top: 10px;
+  }
+
+  #shoppingCart:hover {
+    color:rgb(92, 120, 247);
+    cursor: pointer;
+  }
+
+  #details {
+    color: blue;
+    width: 65px; 
+    text-align: center;
+  } 
+  
+  #details:hover {
+    color: blue;
+    cursor: pointer;
+  } 
+  
+  #detailsDialog {
+    text-align: center;
+  }
+
+  #containerBackground {
+    background: rgba(100, 100, 100, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  #containerContent {
+    background: rgba(255, 255, 255, 1.0);
+    box-shadow: 6px 6px rgb(100, 100, 100);
+    position: relative;
+    top: 25px;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    border-color: yellow;
+    border-width: 3px;
+    border-style: solid;
+  }
+
+  #containerContentTitle {
+    background-color:white;    
+    text-align: center;
+    height: 33px;
+    font-size:15pt;
+  } 
+
+  #cancelX {
+    height:22px; 
+    text-align: right;
+    display: inline-block;
+    position: absolute;
+    right: 3px;
+  }
+
+  #containerContentCustom {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+  }
+
+  #dialogMain {
+    flex: 1;
+    text-align: center;
+  }
+
+  #checkoutWrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+  }
+
+  #dialogButtons {
+    height: 30px;
+    align-items:  flex-end;
+    align-self: center;
+    padding-bottom: 10px;
+    padding-top: '10px';
+  }
+  
+  #mainButtons {
+    width: 100px;
+  }
+
+  #cart-ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    flex:1;
+  }
+
+  #title {
+    display: inline-block;
+  }
+
+  #titleUser {
+    font-style: italic;
+    font-size: 10pt;
+    color: blue;
+  }
+
+  .divider {
+    width:25px;
+    height:auto;
+    display:inline-block;
+  }
+
+  #orderSummary {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: 'hidden';
+  }
+  #billingAddress {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #shippingAddress {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  #payment {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #summaryDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+  }
+
+  #cartItemsDiv {
+    border-width:1px;
+    border-style:solid;
+    border-color:black;    
+    flex: 1;
+    overflow-y: auto;
+    margin-left: 10px;
+    margin-right: 40px;
+    height: 120px;
+    text-align: left;
+  }
+
+  #summaryLabelDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    align-items: flex-end;
+    height: 100%;
+
+  }
+
+  #summaryAmountDiv {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    align-items: flex-end;
+    height: 100%;
+  }
+
+  .labelDiv {
+    flex: 1;
+    align-items: right;
+    font-size: 10pt;
+    white-space: nowrap;
+    margin-bottom: 5px;
+  }
+
+  .inputDiv {
+    flex: 1;
+    align-items: left;
+  }
+
+  #billingDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #billingLabelDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: flex-end;
+  }
+
+  #billingInputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: flex-end;
+  }
+
+
+  #shippingDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  #paymentDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-top: 10px;
+  }
+
+  #addressDiv {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #checkoutMessageDiv {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  #paymentLabelDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: flex-end;
+  }
+
+  #paymentInputDiv {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: flex-start;
+  }
+
+  #paymentCol1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-items: flex-start;
+  }
+
+  #paymentCol2 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+  }
+
+  #paymentCol1-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    flex: 1;
+  }
+
+  #paymentCol1-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: flex-start;
+    flex: 2;
+  }
+
+  #paymentCol2-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    margin-right: 29px;
+    align-items: flex-end;
+  }
+
+  #paymentCol2-2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-right: 5px;
+    align-items: flex-start;
+    flex: 2;
+  }
+
+  #product {
+    width: 250px;
+    height: 275px;
+    display: flex;
+    flex-direction: column;
+    text-align:center; 
+    margin-left: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+  }
+
+  #products-ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 1;
+    list-style: none;
+    justify-content: flex-start;
+    padding-inline-start: 0px;
+    margin-block-start: 5px;
+    /* overflow-y: auto; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+  }
+
+  .item {
+    display: flex;  
+    width: 90%;
+    height: 20px;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 10px;
+  }
+
+  #imageDiv {
+    background-color:green;
+    flex-grow:26;
+    height: 70%;
+  }
+
+  #textDiv {
+    flex-grow:2;
+  }
+
+  #buyButtonDiv {
+    flex-grow:1;
+    padding-bottom: 5px;
+  }
+
+  #productText {
+    font-size: 10pt;
+  }
+
+  #cartIcon {
+    padding-right: 25px;
+    margin-bottom: -4px;
+    opacity: 1;
+  }
+
+  #image {
+    width: 100%;
+    height: 100%;
+  }
+
+  label { 
+    display: inline-block; 
+    width: 140px; 
+    text-align: right;  
+    padding-top: 20px;
+  }
+
+  input {
+    width: 340px; 
+  }
+
+  #mainHeaderTitle {
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(0, 150, 0);
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    font-size: 50pt;
+    font-style: italic;
+  }
+
+  #nav {
+    opacity: 1;
+    flex: 1;
+  }
+
+  #article {
+    flex: 8;
+    min-height: 0px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    height: 97%;    
+  }
+
+  .articleName {
+    color: white;
+    margin: 0px;
+  }
+
+  .checkDialogSubTitles {
+    height: 23px;
+    padding-left: 20px;
+    background-color: lightGray;
+  }
+  
+  #imgDiv1 {
+    transform: rotate(95deg);
+    margin-top: 150px;
+    box-shadow:10px 10px 55px -2px orange,  -10px -10px 25px -2px orange ;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
+  }
+
+  #imgDiv2 {
+    transform: rotate(87deg);
+    margin-top: 30px;
+    margin-left: 150px;
+    box-shadow:10px 10px 55px -2px orange,  -10px -10px 25px -2px orange ;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
+  }
+
+  #imgDiv3 {
+    transform: rotate(93deg);
+    border-width: 3px;
+    margin-top: 280px;
+    margin-left: -100px;
+    box-shadow:10px 10px 55px -2px orange,  -10px -10px 25px -2px orange ;
+    width: 200px;
+    height: 200px;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
+  }
+
+  #imgDiv4 {
+    transform: rotate(10deg);
+    border-width: 3px;
+    margin-top: 115px;
+    margin-left: 150px;
+    box-shadow:10px 10px 55px -2px orange,  -10px -10px 25px -2px orange ;
+    width: 300px;
+    height: 300px;
+    -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 5s; /* Firefox < 16 */
+     -ms-animation: fadein 5s; /* Internet Explorer */
+      -o-animation: fadein 5s; /* Opera < 12.1 */
+         animation: fadein 5s;
+  }
+
+  #homeDiv {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 85%;
+    /* opacity: .7; */
+    color: white;
+    padding-left: 50px;
+  }
+
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* Firefox < 16 */
+  @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* Safari, Chrome and Opera > 12.1 */
+  @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* Internet Explorer */
+  @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+  /* Opera < 12.1 */
+  @-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+
+
+  #aboutDiv {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    height: 80%; 
+    background-color: lightgrey;
+  }  
+
+  #productsDiv {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    height: 80%;
+    overflow-y: auto;
+    background-color: lightgrey;
+  }
+
+  #contactDiv {
+    text-align: center;
+    padding-top: 20px;
+    background-color: lightgrey;
+    height: 80%;
+    padding-bottom: 60px;
+  }
+
+  ul {
+    padding-inline-start:35px;
+  }
+  
+  li a:hover {
+    color:rgb(92, 120, 247);
+    cursor: pointer;
+  }
+
+  .activeClass {
+    content: ""; 
+    color:rgb(92, 120, 247);
+    text-decoration: none;
+  } 
+
+
+  .navAnchor {
+    color: white;
+    text-decoration: none;
+  }
+
+
+  /* li a:visited {
+    color:red;
+    } */
+
+/* ul a:active {
+  color: green;
+} */
+
+  li {
+    font-size: 11pt;
+    padding-bottom: 10px;
+  } 
+
+  .liNav {
+    color: rgb(0, 200, 0);
+    padding-bottom: 40px;
+    font-size: 22pt;
+  }
+
+  .liNavSelected {
+    color:yellow;
+  }
+
+  .no-bullet{
+    list-style-type: none;
+    color: white;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+  }
+
+  .enabledButton {
+    color: black;
+  }
+
+  .disabledButton {
+    color: gray;
+  }
+
+/*****************************************************************************/
+/*           Main Layout                                                     */
+/*****************************************************************************/
+
+  #outerDiv-x {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+    height: 100%;
+    /* border-color: red;
+    border-width: 3px;
+    border-style: solid; */
+  }
+  #headerDiv-x {
+    flex: 3;
+    /* background-image: url('./curved-wood-background-7-2.jpg'); */
+    text-align: center;
+    color: gray;
+    /* opacity: .9; */
+  }
+
+  #videoDiv {
+    flex: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -100;
+    width: 100%;
+    height: 100%;
+  } 
+
+  #videoTag {
+    width: 100%;
+  }
+
+  #mainDiv-x {
+    display: flex;
+    flex-direction: row;
+    flex: 19;
+    min-height: 0px;
+  }
+
+  #footerDiv-x {
+    flex: 1;
+    text-align: center;
+    background-color:rgb(80, 90, 80);
+    margin: 0px;
+    opacity: .7;
+    color: white;
+    font-style: italic;
+  }
+
+

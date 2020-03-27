@@ -1,0 +1,133 @@
+[
+  {
+    "name": "Cute Puppy",
+    "price": "19.99",
+    "image": "./shelby.jpg",
+    "id": 100,
+    "pounds": 3,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Cute Dog and Boy",
+    "price": "99.99",
+    "image": "./IMG_0460.jpg", 
+    "id": 101,
+    "pounds": 13,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Desk",
+    "price": "99.99",
+    "image": "./shelby.jpg", 
+    "id": 102,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Picture Frame",
+    "price": "99.99",
+    "image": "./shelby.jpg", 
+    "id": 103,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Ohlins TTX Shock",
+    "price": "99.99",
+    "image": "./misc003.jpg", 
+    "id": 104,
+    "pounds": 20,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Bed w/puppy",
+    "price": "99.99",
+    "image": "./shelby.jpg", 
+    "id": 105,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "HeadBoard",
+    "price": "99.99",
+    "image": "./shelby.jpg", 
+    "id": 106,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Table",
+    "price": "99.99",
+    "image": "./shelby.jpg", 
+    "id": 107,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Cuttingboard",
+    "price": "199.99",
+    "image": "./shelby.jpg", 
+    "id": 108,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Bench",
+    "price": "250.00",
+    "image": "./shelby.jpg", 
+    "id": 109,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Coat Hanger",
+    "price": "25.99",
+    "image": "./shelby.jpg", 
+    "id": 110,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Table Lamp",
+    "price": "59.99",
+    "image": "./shelby.jpg", 
+    "id": 111,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  },
+  {
+    "name": "Decorative Box",
+    "price": "15.99",
+    "image": "./shelby.jpg", 
+    "id": 112,
+    "pounds": 0,
+    "ounces": 0,
+    "width": 0,
+    "height": 0
+  }
+
+]
