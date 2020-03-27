@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/WinnetkaWoodWorks2/static/css/main.4f2016da.chunk.css",
+    "main.js": "/WinnetkaWoodWorks2/static/js/main.d348605f.chunk.js",
+    "main.js.map": "/WinnetkaWoodWorks2/static/js/main.d348605f.chunk.js.map",
+    "runtime-main.js": "/WinnetkaWoodWorks2/static/js/runtime-main.42c7b24c.js",
+    "runtime-main.js.map": "/WinnetkaWoodWorks2/static/js/runtime-main.42c7b24c.js.map",
+    "static/js/2.9ee3a2a6.chunk.js": "/WinnetkaWoodWorks2/static/js/2.9ee3a2a6.chunk.js",
+    "static/js/2.9ee3a2a6.chunk.js.map": "/WinnetkaWoodWorks2/static/js/2.9ee3a2a6.chunk.js.map",
+    "index.html": "/WinnetkaWoodWorks2/index.html",
+    "precache-manifest.9f2b48cab6df0c5cdfee25583988a4dc.js": "/WinnetkaWoodWorks2/precache-manifest.9f2b48cab6df0c5cdfee25583988a4dc.js",
+    "service-worker.js": "/WinnetkaWoodWorks2/service-worker.js",
+    "static/css/main.4f2016da.chunk.css.map": "/WinnetkaWoodWorks2/static/css/main.4f2016da.chunk.css.map",
+    "static/js/2.9ee3a2a6.chunk.js.LICENSE.txt": "/WinnetkaWoodWorks2/static/js/2.9ee3a2a6.chunk.js.LICENSE.txt",
+    "static/media/Forest2.mp4": "/WinnetkaWoodWorks2/static/media/Forest2.4bcb1a94.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.42c7b24c.js",
+    "static/js/2.9ee3a2a6.chunk.js",
+    "static/css/main.4f2016da.chunk.css",
+    "static/js/main.d348605f.chunk.js"
+  ]
+}
