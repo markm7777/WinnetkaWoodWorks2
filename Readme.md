@@ -1,3 +1,31 @@
+# WinnetkaWoodWorks2
+Winnetka Wood Works
+
+A simple e-commerce site built with React. 
+
+Note: 
+
+Client: create-react-app  
+Server: NodeJS/Express
+
+Known issues:
+1. TODO: form validation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Winnetka Wood Works
 
 ## A simple e-commerce site.
