@@ -24,8 +24,8 @@ app.use(bodyParser.json());
 
 // https server
 https.createServer({
-  key: fs.readFileSync('./ca.key'),
-  cert: fs.readFileSync('./ca.crt')
+  key: fs.readFileSync('./server.key'),
+  cert: fs.readFileSync('./server.crt')
 //  key: fs.readFileSync('./create-react-app-express/ca.key'),
 //  cert: fs.readFileSync('./create-react-app-express/ca.crt')
 }, app).listen(port, () => console.log(`Listening on port ${port}`));
